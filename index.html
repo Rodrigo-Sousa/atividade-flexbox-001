@@ -15,8 +15,7 @@
     <header>
         <section>
             <h1>LOVT</h1>
-            <p>You Love,</p>
-            <p>your loft!</p>
+            <p>You Love, <span>your loft!</span></p>
         </section>
 
         <!-- Linhas para simular o menu (hambúrger) -->
@@ -31,20 +30,26 @@
     <main>
 
         <!-- Banner de anúncios -->
-        <section>
+        <section class="banner" >
             
             <img src="img/01-dining Room.jpg" alt="Sala de jantar">
-            
-        </section>
 
+            <!-- Dificuldade de inserir as setas em cima da imagem da sala de jantar -->
+            <!-- <div class="navegacao"> -->
+                <!-- Setas para navegação -->
+                <!-- <img src=".\img/05-left-arrow.png" alt="seta para a esquerda">
+                <img src=".\img/06-right-arrow.png" alt="seta para a direita">
+            </div> -->
+        </section>
+        
         <!-- Novidades -->
-        <section>
+        <section class="sessao-principal">
             <figure>
                 <img src="img/02-living room.jpg" alt="Venda de uma sala de jantar decorada em uma arquitetura moderna">
 
-                <p>$ 1,200 <span>New</span></p>
+                <p>$ 1,200 <span class="novo">New</span></p>
 
-                <figcaption>
+                <figcaption class="legenda-imagens">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum soluta voluptate culpa cupiditate asperiores, maxime omnis sunt qui provident necessitatibus ipsa, dolore aperiam facere ullam. Vitae odit ipsam voluptatum distinctio.
                 </figcaption>
             </figure>
@@ -53,11 +58,11 @@
 
                 <img src="img/03-modern house.jpg" alt="Fachada de uma casa moderna com janelas altas">
 
-                <p>$ 2,000<span>Sale</span></p>
+                <p>$ 2,000 <span class="venda">Sale</span></p>
 
-                <figure>
+                <figcaption class="legenda-imagens">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti necessitatibus voluptatum laborum sequi nobis, veritatis molestiae minus harum, cumque sit libero? Ipsam qui animi quas vitae rem iusto explicabo! Culpa?
-                </figure>
+                </figcaption>
             </figure>
         </section>
 
