@@ -58,6 +58,10 @@ main {
     height: 500px;
 }
 
+.navegacao {
+    position: absolute;
+    top: 350px;
+}
 /* Estilizado a imagem de navegação */
 .navegacao img{
     width: 5vw;
@@ -85,6 +89,7 @@ figure p {
 }
 .legenda-imagens, figure p {
     background-color: #e2e2e2ec;
+    padding: 10px;
 }
 .novo {
     background-color: #04c204a8;
@@ -101,4 +106,76 @@ figure p {
     border-radius: 15px;
     padding: 8px 14px;
     margin-left: 260px;
+}
+
+.seu-estilo {
+    margin: 30px;
+    color: #808080;
+    font-size: 40px;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.your-style {
+    margin-top: 90px;
+    font-weight: bold;
+}
+
+.industial, .moderna, .classico {
+    color: #ffff;
+    padding: 20px;
+}
+.industial {
+    margin-top: 15px;
+    background-image: url(../img/07-industrial-v2.jpg);
+    max-width: 1200px;
+    background-size:cover;
+    background-position: 10% 100%;
+    min-height: 80px;
+}
+.moderna {
+    margin-top: 15px;
+    background-image: url(../img/08-modern-kitchen.jpg);
+    max-width: 1200px;
+    background-size:cover;
+    background-position: 10% 50%;
+    min-height: 80px;
+}
+.classico {
+    margin-top: 15px;
+    background-image: url(../img/09-living-room.jpg);
+    max-width: 1200px;
+    background-size:cover;
+    background-position: 30% 70%;
+    min-height: 80px;
+}
+
+.rodape {
+    background-color: #000000d2;
+    display: flex;
+}
+
+.mapa > img {
+    margin: 40px;
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+}
+.informacoes {
+    margin: 40px;
+    color: #ffff;
+    font-size: 25px;
+}
+
+.informacoes > ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+.item-midia {
+    padding-right: 40px;
+}
+.imagem-midias {
+    max-width: 90px;
+    display: flex;
 }
