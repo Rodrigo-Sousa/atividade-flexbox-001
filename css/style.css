@@ -63,12 +63,15 @@ main {
     top: 350px;
 }
 /* Estilizado a imagem de navegação */
-.navegacao img{
+.navegacao > img{
     width: 5vw;
     height: 10vh;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
+.seta-esquerda {
+    margin: 0px 2px 0px 1050px ;
+}
 /* Quadro das imagens */
 .sessao-principal {
     display: inline-flex;
@@ -176,6 +179,6 @@ figure p {
     padding-right: 40px;
 }
 .imagem-midias {
-    max-width: 90px;
+    max-width: 60px;
     display: flex;
 }
